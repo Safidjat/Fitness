@@ -1,0 +1,365 @@
+:root{
+    --pink:#fd634d;
+    --green:#a1c927;
+    --gray:#e3e9e9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color: inherit;
+}
+
+header{
+    height: 100vh;
+    background: url('../img/HeaderBg.jpg')60%/ cover;
+    text-align: center;
+    position: relative;
+}
+nav{
+    padding: 50px 0;
+}
+menu li a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: "Avenir Next Rounded Std";
+}
+
+#text{
+    position: absolute;
+    bottom:16vh;
+    width: 100%;
+    h1{
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: "Myriad Pro";
+    }
+    h5{
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: "Myriad Pro";
+    }
+}
+.txtGreen{
+    color: var(--green);
+}
+.txtPink{
+    color: var(--pink);
+}
+.txtWhite{
+    color: #fff;
+}
+.bgGreen{
+    background-color: var(--green);
+    
+}
+.bgPink{
+    background-color: var(--pink);
+}
+.bgWhite{
+    background-color: #fff;
+    i{
+        color: var(--gray);
+    }
+}
+.pad{
+    padding: 66px 0;
+}
+.cpad{
+    padding: 33px 10px;
+}
+i{
+    font-size: 1.5em;
+    font-weight: 400;  
+}
+article h3{
+    padding: 20px 0;    
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Open Sans'; /*import islemedi*/
+}
+article p,article a{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Proxima Nova";
+}
+#deva{
+    background: url('../img/deva.jpg') center/cover;
+}
+#saat{
+    background: url('../img/saat.jpg') center/cover;
+}
+#gac{
+    background: url('../img/gac.jpg') center/cover;
+}
+#uzum{
+    background: url('../img/uzum.jpg') center/cover;
+}
+#avokado{
+    background: url('../img/avokado.jpg') center/cover;
+}
+#oglan{
+    background: url('../img/oglan.jpg') center/cover;
+}
+.h50{
+    height: 50vh;
+}
+.txtcenter{
+    text-align: center;
+    padding: 66px 33px;
+}
+.txtcenter h4,.texts h4{ 
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.txtcenter h2,.texts h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Open Sans";
+}
+.txtcenter p, .txtcenter a,.texts p{  
+    font-size: 14px;
+    line-height: 26px;
+    color: #656e74;
+    font-weight: 400;
+    font-family: "Open Sans";
+    
+}
+.txtcenter a{
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+}
+.fa-droplet{
+    padding: 24px 0;
+    color: var(--gray);
+}
+.tex{
+    padding: 60px;
+    position: relative;
+    h2{
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-family: "Open Sans";
+        margin-bottom: 30px;
+    }
+    h4{
+        font-size: 17px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-family: "Montserrat";
+    }
+    p{
+        font-size: 13px;
+        line-height: 21px;
+        font-weight: 400;
+        font-family: "Open Sans";
+    } 
+    i{
+        position: absolute;
+        top: 65px;
+        right: 60px;
+    }
+}
+.texts{
+    position: relative;
+    text-align: left;
+    padding: 60px 40px;
+    i{
+        position: absolute;
+        top: 60px;
+        right: 60px;
+        font-size: 1.5em;
+    }
+    h2{
+        margin-bottom: 40px;
+    }
+}
+
+footer{
+    background: url('../img/footerBg.jpg') center/cover;
+}
+#top{
+    text-align: center;
+    padding: 60px;
+    margin-bottom: 260px;
+    h2{
+        font-size: 2em;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
+    p{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
+}
+.col3 h6{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-bottom: 8px;
+}
+.col3 p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.col3{
+    padding: 15px;
+    i{
+        font-size: 2em;
+        margin-right: 10px;
+    }
+}
+.buttons{
+    text-align: center;
+    span{
+        border: 1px solid #fff;
+        color: var(--green);
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: .8em;
+        padding: 1px 4px;
+    }
+}
+.but{
+    height: 50px;
+}
+input::placeholder,button{
+    font-size: 14px;
+    color: #83969f;
+    font-family: "Proxima Nova";
+}
+input,button{
+    border-radius: 2px;
+    width: 180px;
+    border: none;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    width: 100px;
+}
+
+@media only screen and (min-width: 768px){
+    header{
+        text-align: initial;
+    }
+    nav{
+        padding: 39px 52px;
+    }
+    #text{
+        left: 7.3vw;
+        width: initial;
+        text-align: right;
+    }
+    menu{
+        float: right;
+    }
+    menu li {
+        display: inline-block;
+        padding: 17px 2vw;
+    }
+    #text h1{
+        font-size: 2.5em;
+    }
+    .container{
+        max-width: 1180px;
+        margin: auto;
+    }
+    
+    .col25{
+        width: 25%;
+    }
+    .fleft{
+        float: left;
+    }
+    .row::after{
+        display: table;
+        content: none;
+        clear: both;
+    }
+    .row{
+        height: 50vh;
+    }
+    .col65{
+        width: 65%;
+    }
+    .col35{
+        width: 35%;
+    }
+    .fright{
+        float: right;
+    }
+    .txtcenter h2{
+        font-size: 2.2em;
+    }
+    .bgPink{
+        height: 200vh;  /*niye ozu olmadi??*/
+    }
+    .bGreen{
+        h2{
+            font-size: 2.5em;
+        }
+    }
+    #top{
+        h2{
+            font-size: 2.8em;
+        }
+    }
+    #top{
+        padding: 240px;
+        margin-bottom: 550px;
+    }
+    .col3{
+        width: 33.33%;
+        padding:0 20px;
+        i{
+            font-size: 2.5em;
+        }
+        .fa-square-twitter,.fa-square-youtube,.fa-linkedin{
+            margin-left: 50px;
+        }
+    }
+    .cols{
+        height: 200px;
+    }
+    .buttons{
+        float:right;
+    }
+    input{
+        padding: 20px;
+        max-width: 180px;   /*??*/
+    }
+    button{               /*??niye yuxarida durur*/
+        padding: 20px ;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:900px){
+    .txtcenter{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1190px){
+    .col3{
+        .fa-square-twitter,.fa-square-youtube,.fa-linkedin{
+            margin-left: 5px;
+        }
+    }
+}
