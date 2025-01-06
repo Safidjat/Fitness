@@ -70,7 +70,7 @@ menu li a{
     }
 }
 .pad{
-    padding: 66px 0;
+    padding: 30px 0;
 }
 .cpad{
     padding: 33px 10px;
@@ -109,7 +109,7 @@ article p,article a{
     background: url('../img/oglan.jpg') center/cover;
 }
 .h50{
-    height: 50vh;
+    height: 50vh;         /*900 qeder responsiv elemek ucun min-heigth verende error olur??*/
 }
 .txtcenter{
     text-align: center;
@@ -254,7 +254,7 @@ input,button{
 }
 input{
     padding: 10px;
-    width: 100px;
+    max-width: 100px;
 }
 
 @media only screen and (min-width: 768px){
@@ -298,6 +298,9 @@ input{
     .row{
         height: 50vh;
     }
+    .Row{
+        height: 100vh;  /*??Niye hundurluk vermeli oldum ?ozu kontentin uzunlugu qeder yer tutmali idi*/
+    }
     .col65{
         width: 65%;
     }
@@ -310,10 +313,9 @@ input{
     .txtcenter h2{
         font-size: 2.2em;
     }
-    .bgPink{
-        height: 200vh;  /*niye ozu olmadi??*/
-    }
-    .bGreen{
+    
+    
+    .bgGreen{
         h2{
             font-size: 2.5em;
         }
@@ -345,11 +347,9 @@ input{
     }
     input{
         padding: 20px;
-        max-width: 180px;   /*??*/
+        max-width: 180px;  
     }
-    button{               /*??niye yuxarida durur*/
-        padding: 20px ;
-    }
+    
 }
 @media only screen and (min-width: 768px) and (max-width:900px){
     .txtcenter{
